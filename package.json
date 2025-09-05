@@ -1,0 +1,23 @@
+{
+  "name": "solidnode",
+  "version": "1.0.0",
+  "description": "- [ ] Estrutura do projeto\r - [ ] Integração com Prisma ORM\r - [ ] Caso de uso e design patterns\r - [ ] Design patterns & Testes\r - [ ] Implementando casos de uso\r - [ ] Controllers & Testes E2E\r - [ ] Refresh Token & RBAC\r - [ ] CI/CD da aplicação",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src/server.ts --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "fastify": "^5.5.0"
+  }
+}
