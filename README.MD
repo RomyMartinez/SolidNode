@@ -1,8 +1,8 @@
 # API Node.js com SOLID
 
-- [ ] Estrutura do projeto
-- [ ] Integração com Prisma ORM
-- [ ] Caso de uso e design patterns
+- [ X ] Estrutura do projeto
+- [ X ] Integração com Prisma ORM
+- [ X ] Caso de uso e design patterns
 - [ ] Design patterns & Testes
 - [ ] Implementando casos de uso
 - [ ] Controllers & Testes E2E
@@ -16,7 +16,7 @@
 
 ## Requisitos Funcionais
 
-- [ ] It should be possible to register a user
+- [ X ] It should be possible to register a user
 - [ ] It should be possible to authenticate a user
 - [ ] It should be possible to get user profile logged
 - [ ] It should be possible to get number of check-ins for a user
@@ -28,7 +28,7 @@
 
 ## Regras de Negócios
 
-- [ ] A user should not be able to register with an email that is already in use
+- [ X ] A user should not be able to register with an email that is already in use
 - [ ] A user should not be able to check-in more than once in the same day
 - [ ] A user should not be able to check-in in a gym that is more than 100 meters away from his location
 - [ ] A check-in should be validate only until 20 minutes after its creation

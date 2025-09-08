@@ -27,7 +27,7 @@ export const registerUser = async (
     if (err instanceof UserAlreadyExistError) {
       return reply.status(409).send()
     }
-    return reply.status(500).send()
+    throw err
   }
 
   return reply.status(201).send()
