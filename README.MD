@@ -3,7 +3,7 @@
 - [ X ] Estrutura do projeto
 - [ X ] Integração com Prisma ORM
 - [ X ] Caso de uso e design patterns
-- [ ] Design patterns & Testes
+- [ X ] Design patterns & Testes
 - [ ] Implementando casos de uso
 - [ ] Controllers & Testes E2E
 - [ ] Refresh Token & RBAC
@@ -37,7 +37,7 @@
 
 ## Requisitos Não Funcionais
 
-- [ ] A password must be encrypted
-- [ ] The database must be PostgreSQL
+- [ X ] A password must be encrypted
+- [ X ] The database must be PostgreSQL
 - [ ] All data listing must be paginated with 20 items per page
 - [ ] The authentication must be stateless, using JWT
