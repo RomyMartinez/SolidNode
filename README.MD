@@ -24,13 +24,13 @@
 - [ ] It should be possible to the user search gyms by name
 - [ X ] It should be possible to the user check-in at a gym
 - [ ] It should be possible to validate a check-in
-- [ ] It should be register an gym
+- [ X ] It should be register an gym
 
 ## Regras de Negócios
 
 - [ X ] A user should not be able to register with an email that is already in use
-- [ ] A user should not be able to check-in more than once in the same day
-- [ ] A user should not be able to check-in in a gym that is more than 100 meters away from his location
+- [ X ] A user should not be able to check-in more than once in the same day
+- [ X ] A user should not be able to check-in in a gym that is more than 100 meters away from his location
 - [ ] A check-in should be validate only until 20 minutes after its creation
 - [ ] A check-in can be validated only by an user with admin role
 - [ ] Only an user with admin role can register a gym
