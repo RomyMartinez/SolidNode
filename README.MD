@@ -18,11 +18,11 @@
 
 - [ X ] It should be possible to register a user
 - [ X ] It should be possible to authenticate a user
-- [ ] It should be possible to get user profile logged
+- [ X ] It should be possible to get user profile logged
 - [ ] It should be possible to get number of check-ins for a user
 - [ ] It should be possible to the user search nearby gyms
 - [ ] It should be possible to the user search gyms by name
-- [ ] It should be possible to the user check-in at a gym
+- [ X ] It should be possible to the user check-in at a gym
 - [ ] It should be possible to validate a check-in
 - [ ] It should be register an gym
 
