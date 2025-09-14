@@ -22,7 +22,7 @@
 - [ X ] It should be possible to get number of check-ins for a user
 - [ X ] It should be possible to the user get his history of check-ins
 - [ ] It should be possible to the user search nearby gyms
-- [ ] It should be possible to the user search gyms by name
+- [ X ] It should be possible to the user search gyms by name
 - [ X ] It should be possible to the user check-in at a gym
 - [ ] It should be possible to validate a check-in
 - [ X ] It should be register an gym
