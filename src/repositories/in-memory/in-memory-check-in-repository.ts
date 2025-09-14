@@ -6,6 +6,28 @@ import { randomUUID } from "node:crypto";
 export class InMemoryCheckInRepository implements CheckInRepository {
   public checkIns: CheckIn[] = [];
 
+  async findById(id: string): Promise<CheckIn | null> {
+    const checkIn = this.checkIns.find((checkIn) => checkIn.id === id);
+
+    if (!checkIn) {
+      return null;
+    }
+
+    return checkIn;
+  }
+
+  async save(checkInToSave: CheckIn): Promise<CheckIn> {
+    const checkInIndex = this.checkIns.findIndex(
+      (checkIn) => checkIn.id === checkInToSave.id
+    );
+
+    if (checkInIndex >= 0) {
+      this.checkIns[checkInIndex] = checkInToSave;
+    }
+
+    return checkInToSave;
+  }
+
   async create(data: Prisma.CheckInUncheckedCreateInput): Promise<CheckIn> {
     const checkIn = {
       id: randomUUID(),
