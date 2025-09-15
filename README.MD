@@ -4,7 +4,7 @@
 - [ X ] Integração com Prisma ORM
 - [ X ] Caso de uso e design patterns
 - [ X ] Design patterns & Testes
-- [ ] Implementando casos de uso
+- [ X ] Implementando casos de uso
 - [ ] Controllers & Testes E2E
 - [ ] Refresh Token & RBAC
 - [ ] CI/CD da aplicação
