@@ -1,17 +1,17 @@
-import { GymsRepository } from "@/repositories/gyms-repository";
-import { Gym } from "@/generated/prisma";
-import { randomUUID } from "node:crypto";
+import { GymsRepository } from '@/repositories/gyms-repository'
+import { Gym } from '@/generated/prisma'
+import { randomUUID } from 'node:crypto'
 
 interface CreateGymUseCaseRequest {
-  title: string;
-  description: string | null;
-  phone: string | null;
-  latitude: number;
-  longitude: number;
+  title: string
+  description: string | null
+  phone: string | null
+  latitude: number
+  longitude: number
 }
 
 interface CreateGymUseCaseResponse {
-  gym: Gym;
+  gym: Gym
 }
 
 export class CreateGymUseCase {
@@ -30,8 +30,8 @@ export class CreateGymUseCase {
       phone,
       latitude,
       longitude,
-    });
+    })
 
-    return { gym };
+    return { gym }
   }
 }

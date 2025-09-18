@@ -1,12 +1,12 @@
-import { CheckInRepository } from "@/repositories/check-in-repository";
-import { CheckIn } from "@/generated/prisma";
+import { CheckInRepository } from '@/repositories/check-in-repository'
+import { CheckIn } from '@/generated/prisma'
 
 interface GetUserMetricsUseCaseRequest {
-  userId: string;
+  userId: string
 }
 
 interface GetUserMetricsUseCaseResponse {
-  checkInsCount: number;
+  checkInsCount: number
 }
 
 export class GetUserMetricsUseCase {
@@ -15,8 +15,8 @@ export class GetUserMetricsUseCase {
   async execute({
     userId,
   }: GetUserMetricsUseCaseRequest): Promise<GetUserMetricsUseCaseResponse> {
-    const checkInsCount = await this.checkInRepository.countByUserId(userId);
+    const checkInsCount = await this.checkInRepository.countByUserId(userId)
 
-    return { checkInsCount };
+    return { checkInsCount }
   }
 }
