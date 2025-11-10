@@ -20,6 +20,6 @@ app.setErrorHandler(async (error, request, reply) => {
   }
 
   return reply.status(500).send({
-    message: 'Internal server error.',
+    message: 'Internal server error.',  
   })
 })
