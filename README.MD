@@ -1,10 +1,10 @@
 # API Node.js com SOLID
 
-- [ X ] Estrutura do projeto
-- [ X ] Integração com Prisma ORM
-- [ X ] Caso de uso e design patterns
-- [ X ] Design patterns & Testes
-- [ X ] Implementando casos de uso
+- [X] Estrutura do projeto
+- [X] Integração com Prisma ORM
+- [X] Caso de uso e design patterns
+- [X] Design patterns & Testes
+- [X] Implementando casos de uso
 - [ ] Controllers & Testes E2E
 - [ ] Refresh Token & RBAC
 - [ ] CI/CD da aplicação
@@ -16,29 +16,29 @@
 
 ## Requisitos Funcionais
 
-- [ X ] It should be possible to register a user
-- [ X ] It should be possible to authenticate a user
-- [ X ] It should be possible to get user profile logged
-- [ X ] It should be possible to get number of check-ins for a user
-- [ X ] It should be possible to the user get his history of check-ins
-- [ X ] It should be possible to the user search nearby gyms ( 10km )
-- [ X ] It should be possible to the user search gyms by name
-- [ X ] It should be possible to the user check-in at a gym
-- [ X ] It should be possible to validate a check-in
-- [ X ] It should be register an gym
+- [X] It should be possible to register a user
+- [X] It should be possible to authenticate a user
+- [X] It should be possible to get user profile logged
+- [X] It should be possible to get number of check-ins for a user
+- [X] It should be possible to the user get his history of check-ins
+- [X] It should be possible to the user search nearby gyms ( 10km )
+- [X] It should be possible to the user search gyms by name
+- [X] It should be possible to the user check-in at a gym
+- [X] It should be possible to validate a check-in
+- [X] It should be register an gym
 
 ## Regras de Negócios
 
-- [ X ] A user should not be able to register with an email that is already in use
-- [ X ] A user should not be able to check-in more than once in the same day
-- [ X ] A user should not be able to check-in in a gym that is more than 100 meters away from his location
+- [X] A user should not be able to register with an email that is already in use
+- [X] A user should not be able to check-in more than once in the same day
+- [X] A user should not be able to check-in in a gym that is more than 100 meters away from his location
 - [ ] A check-in should be validate only until 20 minutes after its creation
 - [ ] A check-in can be validated only by an user with admin role
 - [ ] Only an user with admin role can register a gym
 
 ## Requisitos Não Funcionais
 
-- [ X ] A password must be encrypted
-- [ X ] The database must be PostgreSQL
+- [X] A password must be encrypted
+- [X] The database must be PostgreSQL
 - [ ] All data listing must be paginated with 20 items per page
 - [ ] The authentication must be stateless, using JWT
